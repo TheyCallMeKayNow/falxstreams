@@ -1,0 +1,2194 @@
+{
+  "schemaVersion": 1,
+  "nodeType": "RootNode",
+  "scenes": {
+    "schemaVersion": 2,
+    "nodeType": "ScenesNode",
+    "items": [
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "768df1a7-445e-48a2-9d85-9aea88161651",
+              "sceneNodeType": "item",
+              "name": "Game Capture",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005210416666666666,
+              "scaleY": 0.0009262962962962963,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 2,
+                "nodeType": "GameCaptureNode",
+                "placeholderFile": "1.png",
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            {
+              "id": "cce36760-cf09-479e-920a-22ce330a88a4",
+              "sceneNodeType": "item",
+              "name": "Info Label",
+              "x": 0.012669573643410844,
+              "y": 0.7523326572634935,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "2.png"
+              }
+            },
+            {
+              "id": "db1ce687-7156-4908-be23-d4b5a9b0614f",
+              "sceneNodeType": "item",
+              "name": "Recent Cheer",
+              "x": 0.03125,
+              "y": 0.7538520833212413,
+              "scaleX": 0.00034027640914465905,
+              "scaleY": 0.0006049358384793939,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_cheerer",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 1,
+                    "color": 16777215,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 235,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "92f1726a-a90b-4417-b434-6286254dc813",
+              "sceneNodeType": "folder",
+              "name": "Cheer Label",
+              "childrenIds": [
+                "db1ce687-7156-4908-be23-d4b5a9b0614f",
+                "cce36760-cf09-479e-920a-22ce330a88a4"
+              ]
+            },
+            {
+              "id": "e4557e62-1a85-4ab5-8784-ea80e9084082",
+              "sceneNodeType": "item",
+              "name": "Info Label",
+              "x": 0.012669573643410844,
+              "y": 0.7115919165227528,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "3.png"
+              }
+            },
+            {
+              "id": "ffac620a-023c-40fe-97c4-21f6c3bce8a6",
+              "sceneNodeType": "item",
+              "name": "Recent Follower",
+              "x": 0.03125,
+              "y": 0.7131113425805006,
+              "scaleX": 0.00034027640914465905,
+              "scaleY": 0.0006049358384793939,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 1,
+                    "color": 16777215,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 235,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "yslpistol",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "2dad59ea-ffbc-4cf1-997e-a17d9f3a4495",
+              "sceneNodeType": "folder",
+              "name": "Follower Label",
+              "childrenIds": [
+                "ffac620a-023c-40fe-97c4-21f6c3bce8a6",
+                "e4557e62-1a85-4ab5-8784-ea80e9084082"
+              ]
+            },
+            {
+              "id": "447f61a5-5736-4969-bed2-90544807cbf2",
+              "sceneNodeType": "item",
+              "name": "Info Label",
+              "x": 0.012669573643410844,
+              "y": 0.6745548794857158,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "4.png"
+              }
+            },
+            {
+              "id": "4552a5b1-7219-4a75-968c-9e42ba236724",
+              "sceneNodeType": "item",
+              "name": "Recent Subscriber",
+              "x": 0.03125,
+              "y": 0.6770002314693895,
+              "scaleX": 0.00034027640914465905,
+              "scaleY": 0.0006049358384793939,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_subscriber",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 1,
+                    "color": 16777215,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 235,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "68e78fee-faea-4b16-82c1-56ffd9bc4095",
+              "sceneNodeType": "folder",
+              "name": "Subscriber Label",
+              "childrenIds": [
+                "4552a5b1-7219-4a75-968c-9e42ba236724",
+                "447f61a5-5736-4969-bed2-90544807cbf2"
+              ]
+            },
+            {
+              "id": "7fe5bac7-10d1-469a-876b-cb223f7b8383",
+              "sceneNodeType": "item",
+              "name": "Info Label",
+              "x": 0.012669573643410844,
+              "y": 0.6384437683746047,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "5.png"
+              }
+            },
+            {
+              "id": "7e77bca8-f117-4a84-bfda-6db3f621d9dc",
+              "sceneNodeType": "item",
+              "name": "Recent Donation",
+              "x": 0.03125,
+              "y": 0.6408891203582783,
+              "scaleX": 0.00034027640914465905,
+              "scaleY": 0.0006049358384793939,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 1,
+                    "color": 16777215,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 235,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "anotheruser: $2.00",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "74421265-c9d6-4c54-8901-d4057ad4aa9a",
+              "sceneNodeType": "folder",
+              "name": "Donation Label",
+              "childrenIds": [
+                "7e77bca8-f117-4a84-bfda-6db3f621d9dc",
+                "7fe5bac7-10d1-469a-876b-cb223f7b8383"
+              ]
+            },
+            {
+              "id": "ef359bf3-fbc8-4f20-8201-9da78eafad81",
+              "sceneNodeType": "folder",
+              "name": "Info Labels",
+              "childrenIds": [
+                "74421265-c9d6-4c54-8901-d4057ad4aa9a",
+                "68e78fee-faea-4b16-82c1-56ffd9bc4095",
+                "2dad59ea-ffbc-4cf1-997e-a17d9f3a4495",
+                "92f1726a-a90b-4417-b434-6286254dc813"
+              ]
+            },
+            {
+              "id": "dff0d830-d704-4dff-b472-a9f4230e701d",
+              "sceneNodeType": "item",
+              "name": "Webcam",
+              "x": 0.015697674418604663,
+              "y": 0.33642930856553155,
+              "scaleX": 0.0001279239766081871,
+              "scaleY": 0.0002274204028589993,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WebcamNode",
+                "width": 0.24561403508771923,
+                "height": 0.24561403508771923
+              }
+            },
+            {
+              "id": "cfd5cfa9-80e9-44e6-b839-60549b3edeb8",
+              "sceneNodeType": "item",
+              "name": "Facecam",
+              "x": 0,
+              "y": 0.3101528385796222,
+              "scaleX": 0.00035994539780084795,
+              "scaleY": 0.0006399029294237296,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "6.png"
+              }
+            },
+            {
+              "id": "07ee1647-65fd-4162-bc1c-4a85466adc31",
+              "sceneNodeType": "folder",
+              "name": "Facecam",
+              "childrenIds": [
+                "cfd5cfa9-80e9-44e6-b839-60549b3edeb8",
+                "dff0d830-d704-4dff-b472-a9f4230e701d"
+              ]
+            },
+            {
+              "id": "7305381e-1254-4032-ba02-0683860a69a3",
+              "sceneNodeType": "item",
+              "name": "Recent Follower - R",
+              "x": 0.1532816324153491,
+              "y": 0.5848211214310286,
+              "scaleX": 0.0003465803857441167,
+              "scaleY": 0.0006161429079895408,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "right",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 220,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "yslpistol",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "b3b219bb-89fc-4faa-8eec-8a4fa77d8621",
+              "sceneNodeType": "item",
+              "name": "Recent Donation - L",
+              "x": 0.04848512078744208,
+              "y": 0.5848211214310286,
+              "scaleX": 0.0003465803857441167,
+              "scaleY": 0.0006161429079895408,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "left",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 220,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "anotheruser: $2.00",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "b3fbe5f0-892d-462d-be30-732a60ce0f81",
+              "sceneNodeType": "folder",
+              "name": "Stream Labels",
+              "childrenIds": [
+                "b3b219bb-89fc-4faa-8eec-8a4fa77d8621",
+                "7305381e-1254-4032-ba02-0683860a69a3"
+              ]
+            },
+            {
+              "id": "4732688f-01a5-44cf-836b-def5d4bc4b06",
+              "sceneNodeType": "item",
+              "name": "Username",
+              "x": 0.09812838863079924,
+              "y": 0.5684701142964212,
+              "scaleX": 0.0001735745073524283,
+              "scaleY": 0.0003085769019598725,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "center",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents": true,
+                  "extents_cx": 500,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "center",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "76e6268c-15ad-4f60-a57c-ad04e2ad76aa",
+              "sceneNodeType": "folder",
+              "name": "Facecam",
+              "childrenIds": [
+                "4732688f-01a5-44cf-836b-def5d4bc4b06",
+                "b3fbe5f0-892d-462d-be30-732a60ce0f81",
+                "07ee1647-65fd-4162-bc1c-4a85466adc31"
+              ]
+            },
+            {
+              "id": "96c33dfd-ff47-4132-b8d8-a55f6f80d040",
+              "sceneNodeType": "item",
+              "name": "Bar Overlay",
+              "x": 0,
+              "y": -0.000925925925925926,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "7.png"
+              }
+            },
+            {
+              "id": "27a9f7b0-6db3-40bc-84c4-fdb93dc48270",
+              "sceneNodeType": "item",
+              "name": "Recent Donation",
+              "x": 0.8459122710227903,
+              "y": 0.009259259259259259,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "anotheruser: $2.00",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "0fcb31a4-bbea-42df-b3aa-1459044a9901",
+              "sceneNodeType": "item",
+              "name": "Recent Subscriber",
+              "x": 0.592336998166343,
+              "y": 0.009259259259259259,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_subscriber",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "5f100863-26dd-4fd0-bc98-ec0ab1c041e5",
+              "sceneNodeType": "item",
+              "name": "Recent Follower",
+              "x": 0.32906543019649503,
+              "y": 0.009685242518059864,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "yslpistol",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "df16c381-0387-4ae8-a61f-2bd20f2f9c6c",
+              "sceneNodeType": "folder",
+              "name": "Stream Labels",
+              "childrenIds": [
+                "5f100863-26dd-4fd0-bc98-ec0ab1c041e5",
+                "0fcb31a4-bbea-42df-b3aa-1459044a9901",
+                "27a9f7b0-6db3-40bc-84c4-fdb93dc48270"
+              ]
+            },
+            {
+              "id": "ff1f3123-5c36-420d-a6f1-7222964bdb89",
+              "sceneNodeType": "item",
+              "name": "Username",
+              "x": 0.038949127930026854,
+              "y": -0.011111111111111112,
+              "scaleX": 0.0003355079217148182,
+              "scaleY": 0.0005964585274930102,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "center",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents": true,
+                  "extents_cx": 300,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "center",
+                  "file": ""
+                }
+              }
+            },
+            {
+              "id": "04bd0be3-0ffd-4da5-8a57-9962e14d2912",
+              "sceneNodeType": "folder",
+              "name": "Bar Overlay",
+              "childrenIds": [
+                "ff1f3123-5c36-420d-a6f1-7222964bdb89",
+                "df16c381-0387-4ae8-a61f-2bd20f2f9c6c",
+                "96c33dfd-ff47-4132-b8d8-a55f6f80d040"
+              ]
+            },
+            {
+              "id": "1bbd2b39-93a3-43d4-8c7d-05e0d158b226",
+              "sceneNodeType": "item",
+              "name": "Alertbox",
+              "x": 0.27444258304318103,
+              "y": -0.005661195101309793,
+              "scaleX": 0.00034723045522348,
+              "scaleY": 0.0006172985870639645,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 688,
+                  "is_media_flag": false,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "webpage_control_level": 0,
+                  "width": 1300
+                },
+                "type": 0
+              }
+            }
+          ]
+        },
+        "name": "Livescreen",
+        "sceneId": "scene_a8e7c0f5-7aa6-4187-9195-c3f29a5b856f"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "e17881cf-04a1-4fe9-a9b9-5f257cd2c8ba",
+              "sceneNodeType": "item",
+              "name": "Starting Screen",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "8.png"
+              }
+            },
+            {
+              "id": "d06932de-2219-4f45-afd6-39556ecd3f5d",
+              "sceneNodeType": "item",
+              "name": "Social Media (Change Me)",
+              "x": 0,
+              "y": 1.0526559048297781e-16,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 2,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_3097499a-f72e-47e5-a4e6-41d7eb4a599d",
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            {
+              "id": "63ffb31e-5d28-4dee-b6a1-878f6cbbbcfe",
+              "sceneNodeType": "item",
+              "name": "Alertbox",
+              "x": 0.27444258304318103,
+              "y": -0.005661195101309793,
+              "scaleX": 0.00034723045522348,
+              "scaleY": 0.0006172985870639645,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 688,
+                  "is_media_flag": false,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "webpage_control_level": 0,
+                  "width": 1300
+                },
+                "type": 0
+              }
+            }
+          ]
+        },
+        "name": "Starting Screen",
+        "sceneId": "scene_4caaaa07-2b11-495f-9b40-0c041a320d71"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "4fbff08d-a166-4f06-b507-2b41f92f4522",
+              "sceneNodeType": "item",
+              "name": "Game Capture",
+              "x": 0.28435050453997296,
+              "y": 0.19948160574367468,
+              "scaleX": 0.00035068596613855235,
+              "scaleY": 0.0006234417175796486,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 2,
+                "nodeType": "GameCaptureNode",
+                "placeholderFile": "9.png",
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            {
+              "id": "5bcb3512-c0aa-4d0e-887f-2370e6d25418",
+              "sceneNodeType": "item",
+              "name": "Webcam",
+              "x": 0.044206876549892374,
+              "y": 0.20435842247540748,
+              "scaleX": 0.00011626136084112876,
+              "scaleY": 0.00020668686371756224,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WebcamNode",
+                "width": 0.22322181281496725,
+                "height": 0.22322181281496722
+              }
+            },
+            {
+              "id": "7adcfeb5-7749-4fb0-8e90-ff5afd5d5a17",
+              "sceneNodeType": "item",
+              "name": "Intermission Screen",
+              "x": 0,
+              "y": -0.000925925925925926,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "10.png"
+              }
+            },
+            {
+              "id": "0f28163c-8821-477d-a2b3-f82570504649",
+              "sceneNodeType": "item",
+              "name": "Chatbox",
+              "x": 0.05051940273454192,
+              "y": 0.5126955892428734,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 375,
+                  "is_media_flag": false,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "webpage_control_level": 0,
+                  "width": 404
+                },
+                "type": 6
+              }
+            },
+            {
+              "id": "0165eed8-9b79-407b-9998-d60bcf156e6a",
+              "sceneNodeType": "item",
+              "name": "Twitter",
+              "x": 0.5787082415502698,
+              "y": 0.04328978406452535,
+              "scaleX": 0.0005195402600611655,
+              "scaleY": 0.0009236271289976275,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "11.png"
+              }
+            },
+            {
+              "id": "866ec517-7d37-4d05-946d-879759a3dae7",
+              "sceneNodeType": "item",
+              "name": "Twitter Username",
+              "x": 0.5980152977654037,
+              "y": 0.05433056928046332,
+              "scaleX": 0.00024018773980539205,
+              "scaleY": 0.000427000426320697,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "32bac010-b85f-4f7a-a06f-bb915f1515aa",
+              "sceneNodeType": "folder",
+              "name": "Twitter",
+              "childrenIds": [
+                "866ec517-7d37-4d05-946d-879759a3dae7",
+                "0165eed8-9b79-407b-9998-d60bcf156e6a"
+              ]
+            },
+            {
+              "id": "b21d7417-097a-44d4-8a9f-c99965aaa18d",
+              "sceneNodeType": "item",
+              "name": "Youtube",
+              "x": 0.7076732868288987,
+              "y": 0.04279288692074672,
+              "scaleX": 0.0005195402600611655,
+              "scaleY": 0.0009236271289976275,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "12.png"
+              }
+            },
+            {
+              "id": "c45b58e4-8b43-4203-b066-0266dcd64a2c",
+              "sceneNodeType": "item",
+              "name": "Youtube Username",
+              "x": 0.7276177110786108,
+              "y": 0.05433056928046332,
+              "scaleX": 0.00024018773980539205,
+              "scaleY": 0.000427000426320697,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "db7cb26b-5bf6-4376-9da4-ce2aff7a82b2",
+              "sceneNodeType": "folder",
+              "name": "Youtube",
+              "childrenIds": [
+                "c45b58e4-8b43-4203-b066-0266dcd64a2c",
+                "b21d7417-097a-44d4-8a9f-c99965aaa18d"
+              ]
+            },
+            {
+              "id": "5bdfafa8-95b0-4b2f-88c6-4e7cd614202a",
+              "sceneNodeType": "item",
+              "name": "Instagram",
+              "x": 0.8319558782911772,
+              "y": 0.042919451468649936,
+              "scaleX": 0.0005195402600611655,
+              "scaleY": 0.0009236271289976275,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "13.png"
+              }
+            },
+            {
+              "id": "104aba82-cdcc-413e-9b84-bce07b2266e2",
+              "sceneNodeType": "item",
+              "name": "Instagram Username",
+              "x": 0.851588434920999,
+              "y": 0.05433056928046332,
+              "scaleX": 0.00024018773980539205,
+              "scaleY": 0.000427000426320697,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "5619f879-838d-4df4-824c-0ebfc39c4a32",
+              "sceneNodeType": "folder",
+              "name": "Instagram",
+              "childrenIds": [
+                "104aba82-cdcc-413e-9b84-bce07b2266e2",
+                "5bdfafa8-95b0-4b2f-88c6-4e7cd614202a"
+              ]
+            },
+            {
+              "id": "0c729ef7-32f3-4979-ae8d-6d4640115bbb",
+              "sceneNodeType": "folder",
+              "name": "Social Media",
+              "childrenIds": [
+                "5619f879-838d-4df4-824c-0ebfc39c4a32",
+                "db7cb26b-5bf6-4376-9da4-ce2aff7a82b2",
+                "32bac010-b85f-4f7a-a06f-bb915f1515aa"
+              ]
+            },
+            {
+              "id": "8ccf34f4-f5ac-4432-b9e6-c80a529d3541",
+              "sceneNodeType": "item",
+              "name": "Recent Donation",
+              "x": 0.1309639442511368,
+              "y": 0.9675494860719587,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_donator",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "anotheruser: $2.00",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "d95203c6-79e2-4510-8aa7-ef327fbffd4c",
+              "sceneNodeType": "item",
+              "name": "Recent Follower",
+              "x": 0.3872224183854713,
+              "y": 0.967734671257144,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_follower",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "yslpistol",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "ec476235-0349-4975-94dd-b3f864dc5cb4",
+              "sceneNodeType": "item",
+              "name": "Recent Subscriber",
+              "x": 0.6343481530219854,
+              "y": 0.9673086879983434,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_subscriber",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "d8ea4b86-9541-4e04-808f-739e042e8ad8",
+              "sceneNodeType": "item",
+              "name": "Recent Cheer",
+              "x": 0.8697131156513455,
+              "y": 0.9673086879983434,
+              "scaleX": 0.00035940190203886995,
+              "scaleY": 0.0006389367147357687,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "StreamlabelNode",
+                "labelType": "most_recent_cheerer",
+                "textSource": {
+                  "schemaVersion": 1,
+                  "nodeType": "TextNode",
+                  "settings": {
+                    "align": "center",
+                    "antialiasing": true,
+                    "bk_color": 0,
+                    "bk_opacity": 0,
+                    "chatlog": false,
+                    "chatlog_lines": 6,
+                    "color": 14736088,
+                    "custom_font": "Roboto-Medium.ttf",
+                    "extents": true,
+                    "extents_cx": 305,
+                    "extents_cy": 34,
+                    "extents_wrap": true,
+                    "font": {
+                      "face": "Roboto Medium",
+                      "flags": 0,
+                      "size": 18
+                    },
+                    "gradient_color": 16777215,
+                    "gradient_dir": 90,
+                    "gradient_opacity": 100,
+                    "opacity": 100,
+                    "outline": false,
+                    "outline_color": 16777215,
+                    "outline_opacity": 100,
+                    "outline_size": 2,
+                    "read_from_file": false,
+                    "text": "",
+                    "transform": 0,
+                    "valign": "center",
+                    "file": ""
+                  }
+                }
+              }
+            },
+            {
+              "id": "ff8585f7-4369-405e-ab49-4e37bbd28286",
+              "sceneNodeType": "folder",
+              "name": "Stream Labels",
+              "childrenIds": [
+                "d8ea4b86-9541-4e04-808f-739e042e8ad8",
+                "ec476235-0349-4975-94dd-b3f864dc5cb4",
+                "d95203c6-79e2-4510-8aa7-ef327fbffd4c",
+                "8ccf34f4-f5ac-4432-b9e6-c80a529d3541"
+              ]
+            },
+            {
+              "id": "8fc1ee37-529e-4429-9111-0e1b54c2d345",
+              "sceneNodeType": "item",
+              "name": "Alertbox",
+              "x": 0.39555438639614887,
+              "y": 0.2079349432735896,
+              "scaleX": 0.00034723045522348,
+              "scaleY": 0.0006172985870639645,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 688,
+                  "is_media_flag": false,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "webpage_control_level": 0,
+                  "width": 1300
+                },
+                "type": 0
+              }
+            }
+          ]
+        },
+        "name": "Intermission Screen",
+        "sceneId": "scene_05a15b87-cb19-41ee-84fe-14590d02606d"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "5388eab2-16ce-4c45-be04-4c19cd514045",
+              "sceneNodeType": "item",
+              "name": "Back Soon Screen",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "14.png"
+              }
+            },
+            {
+              "id": "ca58b5ce-df6e-4326-9aea-627f461bcd34",
+              "sceneNodeType": "item",
+              "name": "Social Media (Change Me)",
+              "x": 0,
+              "y": -3.947459643111668e-17,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 2,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_3097499a-f72e-47e5-a4e6-41d7eb4a599d",
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            {
+              "id": "ca6f174a-a198-402f-b227-4e42e32348c0",
+              "sceneNodeType": "item",
+              "name": "Alertbox",
+              "x": 0.27444258304318103,
+              "y": -0.005661195101309793,
+              "scaleX": 0.00034723045522348,
+              "scaleY": 0.0006172985870639645,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 688,
+                  "is_media_flag": false,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "webpage_control_level": 0,
+                  "width": 1300
+                },
+                "type": 0
+              }
+            }
+          ]
+        },
+        "name": "Back Soon Screen",
+        "sceneId": "scene_7972043c-b13a-416c-8895-0ef8f89e500a"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "2fd36a50-d18d-411d-a1b1-58b760d55405",
+              "sceneNodeType": "item",
+              "name": "Ending Screen",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "15.png"
+              }
+            },
+            {
+              "id": "8e647714-d72a-4c0d-a999-4858f41b2c5f",
+              "sceneNodeType": "item",
+              "name": "Social Media (Change Me)",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 2,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_3097499a-f72e-47e5-a4e6-41d7eb4a599d",
+                "width": 1920,
+                "height": 1080
+              }
+            },
+            {
+              "id": "e28a941f-b98c-4356-aa85-4b9b2736917c",
+              "sceneNodeType": "item",
+              "name": "Alertbox",
+              "x": 0.27444258304318103,
+              "y": -0.005661195101309793,
+              "scaleX": 0.00034723045522348,
+              "scaleY": 0.0006172985870639645,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "mixerHidden": false,
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "WidgetNode",
+                "settings": {
+                  "css": "body { background-color: rgba(0, 0, 0, 0); margin: 0px auto; overflow: hidden; }",
+                  "fps": 30,
+                  "fps_custom": false,
+                  "height": 688,
+                  "is_media_flag": false,
+                  "reroute_audio": false,
+                  "restart_when_active": false,
+                  "shutdown": true,
+                  "url": "",
+                  "webpage_control_level": 0,
+                  "width": 1300
+                },
+                "type": 0
+              }
+            }
+          ]
+        },
+        "name": "Ending Screen",
+        "sceneId": "scene_6fb7801c-d8ec-4016-83d4-bfbbcda45576"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "62958cef-8132-4d67-99aa-985471700ff5",
+              "sceneNodeType": "item",
+              "name": "Offline Screen",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "16.png"
+              }
+            },
+            {
+              "id": "146652c1-4851-46a3-81a5-d9648297e213",
+              "sceneNodeType": "item",
+              "name": "Social Media (Change Me)",
+              "x": 0,
+              "y": 0,
+              "scaleX": 0.0005208333333333333,
+              "scaleY": 0.000925925925925926,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 2,
+                "nodeType": "SceneSourceNode",
+                "sceneId": "scene_3097499a-f72e-47e5-a4e6-41d7eb4a599d",
+                "width": 1920,
+                "height": 1080
+              }
+            }
+          ]
+        },
+        "name": "Offline Screen",
+        "sceneId": "scene_9f1ff626-0a65-4a25-86df-874c42998855"
+      },
+      {
+        "slots": {
+          "schemaVersion": 1,
+          "nodeType": "SlotsNode",
+          "items": [
+            {
+              "id": "8aa61452-36e5-4dca-b5e6-c17bf9d2e887",
+              "sceneNodeType": "item",
+              "name": "Twitter",
+              "x": 0.35036178485735636,
+              "y": 0.8065703059657369,
+              "scaleX": 0.0005195402600611655,
+              "scaleY": 0.0009236271289976275,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "11.png"
+              }
+            },
+            {
+              "id": "dc4b9336-3975-4a88-8ecc-03b206960aa1",
+              "sceneNodeType": "item",
+              "name": "Twitter Username",
+              "x": 0.3696688410724904,
+              "y": 0.8176110911816749,
+              "scaleX": 0.00024018773980539205,
+              "scaleY": 0.000427000426320697,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "d7ef1e10-d46f-46ef-a048-b2058c19e15d",
+              "sceneNodeType": "folder",
+              "name": "Twitter",
+              "childrenIds": [
+                "dc4b9336-3975-4a88-8ecc-03b206960aa1",
+                "8aa61452-36e5-4dca-b5e6-c17bf9d2e887"
+              ]
+            },
+            {
+              "id": "c56ee46a-af19-4663-b06f-8fca5749f2f5",
+              "sceneNodeType": "item",
+              "name": "Youtube",
+              "x": 0.46318099680265207,
+              "y": 0.8060734088219582,
+              "scaleX": 0.0005195402600611655,
+              "scaleY": 0.0009236271289976275,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "12.png"
+              }
+            },
+            {
+              "id": "8d7ceac6-e786-43c5-a1dd-3e9ad5376ac2",
+              "sceneNodeType": "item",
+              "name": "Youtube Username",
+              "x": 0.4831254210523643,
+              "y": 0.8176110911816749,
+              "scaleX": 0.00024018773980539205,
+              "scaleY": 0.000427000426320697,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "f9614fe2-d0af-4166-b178-02ef637e63c0",
+              "sceneNodeType": "folder",
+              "name": "Youtube",
+              "childrenIds": [
+                "8d7ceac6-e786-43c5-a1dd-3e9ad5376ac2",
+                "c56ee46a-af19-4663-b06f-8fca5749f2f5"
+              ]
+            },
+            {
+              "id": "75a0b367-72b5-42f4-9c3f-c40a5cd61643",
+              "sceneNodeType": "item",
+              "name": "Instagram",
+              "x": 0.5713177549315973,
+              "y": 0.8061999733698615,
+              "scaleX": 0.0005195402600611655,
+              "scaleY": 0.0009236271289976275,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "ImageNode",
+                "filename": "13.png"
+              }
+            },
+            {
+              "id": "4b7c6f3c-b554-4652-ad0b-3c5ba4999658",
+              "sceneNodeType": "item",
+              "name": "Instagram Username",
+              "x": 0.5909503115614192,
+              "y": 0.8176110911816749,
+              "scaleX": 0.00024018773980539205,
+              "scaleY": 0.000427000426320697,
+              "crop": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "rotation": 0,
+              "filters": [],
+              "content": {
+                "schemaVersion": 1,
+                "nodeType": "TextNode",
+                "settings": {
+                  "align": "left",
+                  "antialiasing": true,
+                  "bk_color": 0,
+                  "bk_opacity": 0,
+                  "chatlog_lines": 6,
+                  "color": 16777215,
+                  "custom_font": "Orbitron-Black.ttf",
+                  "extents_cx": 100,
+                  "extents_cy": 100,
+                  "extents_wrap": true,
+                  "file": "",
+                  "font": {
+                    "face": "Orbitron Black",
+                    "flags": 0,
+                    "size": 36
+                  },
+                  "gradient_color": 16777215,
+                  "gradient_dir": 90,
+                  "gradient_opacity": 100,
+                  "opacity": 100,
+                  "outline_color": 16777215,
+                  "outline_opacity": 100,
+                  "outline_size": 2,
+                  "text": "USERNAME",
+                  "transform": 0,
+                  "valign": "top"
+                }
+              }
+            },
+            {
+              "id": "14098b1e-189f-4438-a6e9-881d244aae85",
+              "sceneNodeType": "folder",
+              "name": "Instagram",
+              "childrenIds": [
+                "4b7c6f3c-b554-4652-ad0b-3c5ba4999658",
+                "75a0b367-72b5-42f4-9c3f-c40a5cd61643"
+              ]
+            }
+          ]
+        },
+        "name": "Social Media (Change Me)",
+        "sceneId": "scene_3097499a-f72e-47e5-a4e6-41d7eb4a599d"
+      }
+    ]
+  },
+  "transition": {
+    "schemaVersion": 1,
+    "nodeType": "TransitionNode",
+    "type": "obs_stinger_transition",
+    "settings": {
+      "audio_fade_style": 0,
+      "audio_monitoring": 0,
+      "hw_decode": true,
+      "invert_matte": false,
+      "path": "20.webm",
+      "tp_type": 0,
+      "track_matte_enabled": false,
+      "track_matte_layout": 0,
+      "track_matte_path": "",
+      "transition_point": 1000
+    },
+    "duration": 300
+  }
+}
